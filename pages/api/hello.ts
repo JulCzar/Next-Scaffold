@@ -8,6 +8,6 @@ type Data = {
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
-) {
+): void {
   res.json({ message: 'Running' })
 }
